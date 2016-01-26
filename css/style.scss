@@ -151,7 +151,7 @@ $gutter-width: 1;
   .insider {
     border: 2px solid #4daf7b;
     border-radius: 10px;
-    margin: 3% 3% 10% 5%;
+    margin: 3% 3% 4% 5%;
     width: 90%;
     height: 176px;
   }
@@ -178,6 +178,7 @@ $gutter-width: 1;
 
 .increaseSupportBtn {
   margin-left: 38%;
+  margin-bottom: 5%;
 }
 
 .increasingBtn{
@@ -186,8 +187,8 @@ $gutter-width: 1;
   text-decoration: none;
   text-transform: uppercase;
   border-radius:100px;
-  padding: 0.5% 2% 0.5% 2%;
-  font-size: 12px;
+  padding: 1% 4% 1% 4%;
+  font-size: 14px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   color: black;
@@ -218,21 +219,63 @@ $gutter-width: 1;
     padding-top: 3%;
     padding-bottom:10%;
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 13px;
     color: #b4b4b4;
-    padding-left: 12%;
+    padding-left: 14px;
   }
 }
 
 .draftButton{
   text-transform: uppercase;
   border-radius:100px;
-  padding: 1.5% 4% 1.5% 4%;
+  padding: 1.5% 10% 1.5% 12%;
   font-size: 15px;
   background-color: #4daf7b;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   text-decoration: none;
   color: white;
+  margin-left: -20px;
+}
 
+//PARTNERS SECTION
+
+.partners{
+  margin-top: 120px;
+  text-align: center;
+  width: 90%;
+    h1{
+      font-size: 30px;
+      font-weight: 600;
+      color: #565656;
+      margin-bottom: 2%;
+    }
+    h2{
+      font-size: 15px;
+      font-weight: 500;
+      color: #565656;
+      margin-bottom: 1%;
+    }
+    a{
+      font-size: 15px;
+      font-weight: 500;
+      color: #90c7aa;
+      text-decoration: none;
+    }
+}
+
+.partnerTemplate{
+  margin-top:3%;
+  width: 90%;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+
+  .insider {
+    border: 2px solid #4daf7b;
+    border-radius: 10px;
+    margin: 3% 3% 4% 5%;
+    width: 90%;
+    height: 176px;
+  }
 }
