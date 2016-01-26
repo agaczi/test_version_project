@@ -160,18 +160,48 @@ $gutter-width: 1;
 .greenPanel{
   float:left;
   background-color: #4daf7b;
-  border: 1px solid red;
   margin-right: 30%;
   height: 174px;
   width: 15%;
   border-radius: 10px 0 0 10px;
     span img{
-      margin-top: 88%;
-      margin-left: 32%;
+      margin-top: 84%;
+      margin-left: 35%;
+      width: 30%;
     }
 }
 
 .rightPanel{
   float: right;
   background-color: #ffffff;
+}
+
+.increaseSupportBtn{
+  margin-left:38%;
+
+    .plus{
+      border: 2px solid #d0d1d4;
+      text-transform: uppercase;
+      border-radius:100px;
+      padding: 0.5% 2% 0.5% 2%;
+      font-size: 12px;
+      background-color: white;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+        span{
+          //padding-left: 1%;
+        }
+    }
+}
+
+.consultant{
+  position: relative;
+  z-index: 1;
+    img{
+      position: relative;
+      z-index: 400;
+      border-radius: 100px;
+      top: -41px;
+      left: 40%;
+    }
 }
