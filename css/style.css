@@ -196,24 +196,54 @@ table {
 
 .increaseSupportBtn {
   margin-left: 38%; }
-  .increaseSupportBtn .plus {
-    border: 2px solid #d0d1d4;
-    text-transform: uppercase;
-    border-radius: 100px;
-    padding: 0.5% 2% 0.5% 2%;
-    font-size: 12px;
-    background-color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600; }
+
+.increasingBtn {
+  border: 2px solid #d0d1d4;
+  background-color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 100px;
+  padding: 0.5% 2% 0.5% 2%;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: black; }
 
 .consultant {
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  font-family: 'Open Sans', sans-serif; }
   .consultant img {
     position: relative;
     z-index: 400;
     border-radius: 100px;
     top: -41px;
-    left: 40%; }
+    left: 37%; }
+
+.author {
+  padding-left: 31%;
+  margin-top: -11%;
+  padding-bottom: 12%; }
+  .author h1 {
+    font-size: 20px;
+    padding-top: 1%; }
+  .author h2 {
+    padding-top: 3%;
+    padding-bottom: 10%;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #b4b4b4;
+    padding-left: 12%; }
+
+.draftButton {
+  text-transform: uppercase;
+  border-radius: 100px;
+  padding: 1.5% 4% 1.5% 4%;
+  font-size: 15px;
+  background-color: #4daf7b;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */
