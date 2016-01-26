@@ -284,9 +284,9 @@ $gutter-width: 1;
   color: #545454;
   font-family: 'Open Sans', sans-serif;
   img{
-    margin-left: 18%;
+    margin-left: 20%;
     margin-top: 12%;
-    width: 65%;
+    width: 60%;
   }
   h1{
     text-align: center;
@@ -301,7 +301,6 @@ $gutter-width: 1;
     font-weight: 600;
     margin-top: 1%;
     color: #919292;
-
   }
 }
 
@@ -314,5 +313,25 @@ $gutter-width: 1;
 .flat{
   padding: 1.5% 6% 1.5% 6%;
   margin-top: 5%;
-
 }
+
+.hooverPositions{
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+  left: 5%;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  color: white;
+  margin-left: 20%;
+  margin-top: 12%;
+  width: 60%;
+  height: 60%;
+}
+
+
